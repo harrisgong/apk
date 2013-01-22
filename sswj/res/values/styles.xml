@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">@drawable/bg_wood_1</item> 
+    </style>
+    <style name="common_style" parent="android:Theme">
+        <item name="android:windowTitleSize">30dp</item>  
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+    <style name="CustomWindowTitleText" parent="android:TextAppearance.WindowTitle">
+        <item name="android:textColor">#a444</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>  
+    <style name="transparent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

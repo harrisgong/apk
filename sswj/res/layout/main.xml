@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_landscape">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+	    <ListView
+	        android:id="@+id/list"
+	        android:layout_width="240dp"
+	        android:layout_height="wrap_content"
+	        android:divider="@drawable/listview_divider"
+	        android:dividerHeight="6dp"
+	        android:listSelector="@drawable/list_selector"
+	        android:cacheColorHint="#0000"
+	    />
+	    <!-- cacheColorHint 解决滑动变黑问题 -->
+    </LinearLayout>
+    
+    
+    <!--adViewLayout为广告条容器-->
+    <LinearLayout
+        android:id="@+id/adViewLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+     >
+    </LinearLayout>
+</RelativeLayout>

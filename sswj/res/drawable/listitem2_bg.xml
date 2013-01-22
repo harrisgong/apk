@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 获得焦点时的背景图片 -->
+    <item android:state_focused="true">
+        <shape >
+            <corners android:radius="40dp"/>
+            <gradient android:startColor="#0fff"
+                android:centerColor="#4111"
+                android:endColor="#0fff"
+                android:angle="270.0"
+                android:centerY="0.5"
+                />
+        </shape>
+    </item>
+    <!-- 设置相应所有事件 -->
+    <item android:state_enabled="true" android:state_pressed="false">
+        <shape>
+            <gradient android:startColor="#00000000"
+                android:centerColor="#44111111"
+                android:endColor="#00000000"
+                />
+            <corners android:radius="40dp"/>
+        </shape>
+    </item>
+    <!-- 按钮点击时的背景 -->  
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape >
+            <corners android:radius="40dp"/>
+            <gradient android:startColor="#0fff"
+                android:centerColor="#4111"
+                android:endColor="#0fff"
+                android:angle="270.0"
+                android:centerY="0.5"
+                />
+        </shape>
+    </item>
+</selector>
+ 
