@@ -76,7 +76,7 @@ public class SswjActivity extends Activity implements OnItemClickListener{
         
         lv.setOnItemClickListener(this);
         
-        AdManager.init(this,"537ef88653a2993c", "b9e10bcfe994a9fb", 30, false);
+        AdManager.init(this,"217ea86a99759a81", "c34a6f1aa80ed33c", 30, false);
 		LinearLayout adViewLayout = (LinearLayout) findViewById(R.id.adViewLayout);
 		adViewLayout.addView(new AdView(this), 
 				new LayoutParams(LinearLayout.LayoutParams.FILL_PARENT, 
